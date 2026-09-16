@@ -1,6 +1,7 @@
 body{
     font-family: monospace, sans-serif;
     background-color: #ffffff;
+    color: #2a552c;
 }
 
 .header-inner{
@@ -12,7 +13,7 @@ body{
     border-radius: 5px;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 788px) {
     .header-inner {
         flex-direction: column;
         align-items: flex-start;
@@ -32,7 +33,7 @@ h1{
     padding: 0;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 788px) {
     .nav-list {
         flex-direction: column; 
     }
@@ -49,7 +50,7 @@ nav a {
     border-radius: 20px;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 788px) {
     nav a {
         padding: 5px 10px;
     }
@@ -68,6 +69,14 @@ p {
 }
 
 .blog-post {
+    background-color: #ffffff;
+    border: 50px solid #ffffff;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.projects-post {
     background-color: #ffffff;
     border: 50px solid #ffffff;
     padding: 50px;
