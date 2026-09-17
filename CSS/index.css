@@ -1,0 +1,83 @@
+
+.skills-bar{
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 32px 40px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 600px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.skills-bar .bar {
+    margin: 18px 0;
+}
+
+.skills-bar .bar:first-child {
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.progress-line {
+    height: 12px;
+    width: 100%;
+    background-color: #8e8c8ca8;
+    border-radius: 12px;
+}
+
+.html span {
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: #bdff93;
+    border-radius: 12px;
+}
+
+.css span {
+    display: block;
+    height: 100%;
+    width: 40%;
+    background-color: #bdff93;
+    border-radius: 12px;
+}
+
+.java span {
+    display: block;
+    height: 100%;
+    width: 30%;
+    background-color: #bdff93;
+    border-radius: 12px;
+}
+
+.javascript span {
+    display: block;
+    height: 100%;
+    width: 5%;
+    background-color: #bdff93;
+    border-radius: 12px;
+}
+
+.php span {
+    display: block;
+    height: 100%;
+    width: 10%;
+    background-color: #bdff93;
+    border-radius: 12px;
+}
+
+@media (max-width: 788px) {
+    .skills-bar {
+        width: 100%;
+        padding: 20px;
+    }
+}
